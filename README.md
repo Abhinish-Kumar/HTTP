@@ -93,10 +93,10 @@ most HTTP>HTTPS over HTTP/2> Unencrypted HTTP/1.1
 ## HTTP Terminology
 
 
-
-
-
-
+1. Browser:- Application used to access and navigate between HTML documents.(Types of browsers)
+2. User Agent :- Client application. or application acting on the behalf of the user- typically a browser. or what ever application transporting the data from user to a server back.
+3. TCP :- Short for transmission Control Protocol, one of the main internet protocol used by the World Wide Web, email, FTP and remote administration.
+4. IP :- Short for internet Protocol, Ip is used to actually transfer data between computer over a network. Every device connected to the internet has an IP address.
 
 
 
