@@ -97,6 +97,23 @@ most HTTP>HTTPS over HTTP/2> Unencrypted HTTP/1.1
 2. User Agent :- Client application. or application acting on the behalf of the user- typically a browser. or what ever application transporting the data from user to a server back.
 3. TCP :- Short for transmission Control Protocol, one of the main internet protocol used by the World Wide Web, email, FTP and remote administration.
 4. IP :- Short for internet Protocol, Ip is used to actually transfer data between computer over a network. Every device connected to the internet has an IP address.
+5. URL :- Short for uniform resource locator, an address pointing at a resource on the web. A universaly understood address pointing at a resource pointing to a resource on the web.
+6. DNS :- Urls are human redable address , stored in Domain Name Server, and configure to the IP adderess of  web servers. or Short for Domain Name Server, DNS catalogs all domain name URLs and points them to the IP address of servers. It contain both the URL and IP address.
+7. Resource :- When you type in a Web address In the address abr of your browser. That address is automatically PREFIX with the HTTP or HTTPS telling you that you are using the Hyper text transfer protocol to access the resource  at the other end of that universal locator.
+8. Server :- A server is a computer on the internet running some form of data storage and sharing application, most commonly a web server application. Allowing users to access their data through http protocol. HTTP is a client server protocol. Means the client or the user ,most commonly the browser Sends the request to the server and server sends the responses back to the client.
+9. Proxy :- Proxy is a service Either software or hardware service acting as a middle person betwenn clients and servers. Pxoxies are offten used to hide the IP address of server . Its a proxy that handles data abck and forth eg: cognito mode hide the IP of your computer uses Proxy or you can use the Proxy to access the websites which are not commonly allowed to your browser.
+10. Request - Response Pairs :- Client and server communicate over HTTP using request-response pairs. A request is sent, and a response is returned. When ever a client or browser tawlks to a server it does this by sending HTTP request to the server that request contain request method describing what action is requested. and address pointing to an resource and other r=information about the client.Response send a status code and the information about successful request.
+11. Header :- request and response uses a HTTp Header to pass information back and forth. used to identify themselves and give information about what they want. Every request and response has a header. and some also have payloads. The header contains the metadata about request for clear communication between client and server.
+12. HTTP Request Method/Verb :- Every HTTP request contains a request Method a verb. Explaining what action the sender wants to perform on the resource. eg GET to get something ,PUT to put something , UPDATE to update something and also for DELETE.
+13. Status Response Code :- the header of an HTTP response always contains a Status response code. These are NUmerical code in the 100 to 500 range describing what type of response the server sent back to the client. 200 ok 404 not fount 500 server error etc. 
+
+
+
+
+
+
+
+
 
 
 
