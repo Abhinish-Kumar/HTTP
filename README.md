@@ -113,6 +113,14 @@ most HTTP>HTTPS over HTTP/2> Unencrypted HTTP/1.1
 
 
 
+## The HTTP flow
+
+To get the clear idea of how http works imagine the whole web as a library and you as a client looking for a website and each copy in this shell is a website. 
+And here you a librarian work as an HTTP. You pick a book from shelf no 4 and other related books to match the target of request and hands them back  as response with a status.
+This is the flow that how all http transection.
+
+1. first the browser opens the TCP connection to the server
+
 
 
 
