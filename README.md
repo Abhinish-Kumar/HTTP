@@ -119,9 +119,10 @@ To get the clear idea of how http works imagine the whole web as a library and y
 And here you a librarian work as an HTTP. You pick a book from shelf no 4 and other related books to match the target of request and hands them back  as response with a status.
 This is the flow that how all http transection.
 
-1. first the browser opens the TCP connection to the server
+1. first the browser opens the TCP connection to the server this ensures that then data can be send back and forth. It provide the same path to send and receive information from server to client.
 
-
+2. It the connection happens with the https, TLS (Transport Layer Security) certificates are exchanged to ensure that only the server and the client encrypt and decrypt the data that protect the data from third person because the third person if try to get the data ,it only get the encrypted data.
+3. The browser send the http message this message contain the http methods 
 
 
 
