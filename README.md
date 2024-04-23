@@ -122,7 +122,15 @@ This is the flow that how all http transection.
 1. first the browser opens the TCP connection to the server this ensures that then data can be send back and forth. It provide the same path to send and receive information from server to client.
 
 2. It the connection happens with the https, TLS (Transport Layer Security) certificates are exchanged to ensure that only the server and the client encrypt and decrypt the data that protect the data from third person because the third person if try to get the data ,it only get the encrypted data.
-3. The browser send the http message this message contain the http methods 
+3. The browser send the http message, this message contain the http methods (GET,POST,DELETE) and a URL pointing to requested resource, it can also contain headers like cookies,authentication data or the data if you are submitting the data to server using post,patch method.
+4. The server performs the requested actions. and sends response back to browser. Response contain http status method and header with information about the response and whatever data was requested. That data cuold be a html document ,stylesheet, js file ,image or any other type of content.
+5. Once the response has receiverd the tcp connection closed. Since http is statelesswe are now back to  a clean slate.
+6. Mostly the first request to server is for web document for view, these documents links to js and css files or reference elements like images.
+Each these resources are fetched with their server and brought to the same server and maintain the http flow.
+
+7. HTTP/2 Allow multiplexing :- multiple transection can take place at same TCP connection At the same time, this new protocol also allow server to push data to browser (if browser request to specific document then server also give the response to dev-dependent files related to that webpage,it push them at same time with webpage)
+8. All these improves the performance , and reduces the load time for webpages
+
 
 
 
