@@ -134,6 +134,13 @@ Each these resources are fetched with their server and brought to the same serve
 
 
 
+## Tools to see HTTP in action
+
+To see the http trnsection you need to go to the developer tool.
+1. Open developer too
+2. Go to network tab (capture all the trafic between browser and server)
+3. Check ALL
+4. Reload the page.
 
 
 
